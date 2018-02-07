@@ -1,0 +1,15 @@
+{
+  "name": "simple-app",
+  "version": "1.0.0",
+  "description": "simple management app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*"
+  },
+  "author": "Holacode",
+  "license": "ISC"
+}
