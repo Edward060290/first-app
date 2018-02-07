@@ -7,6 +7,9 @@ var app = express();
 app.use(bodyParser.jason());
 app.use(bodyParser.urlendcoded({extend:false}));
 
+app.use(express.static(path.join(__dirname, 'client')))
+
+
 app.get('/', function(req, res){
   res.send("hello World")
 });
