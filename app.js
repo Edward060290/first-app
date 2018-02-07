@@ -4,6 +4,10 @@ var path = require("path")
 
 var app = express();
 
+app.set("view engin", "ejs");
+app.set("views",path.join(__dirname, "views"));
+
+
 app.use(bodyParser.jason());
 app.use(bodyParser.urlendcoded({extend:false}));
 
